@@ -159,6 +159,11 @@ nav div a {
 }
 
 @media (max-width: 600px) {
+  main {
+    min-width: 440px;
+    max-width: 440px;
+  }
+
   nav {
     display: grid;
     grid-template-columns: 120px 160px 140px;
