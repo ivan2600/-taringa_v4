@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  background-color: #004A95;
+  color: aliceblue;
+  display: grid;
+  grid-template-rows: 120px, 45px;
+  margin: 0 8px;
+  border-radius: 10px;
+  height: 150vh;
+  align-content: start;
+}
+
+header {
+  height: 83px;
+  align-items: center;
+}
+
+header h1 {
+  margin: 15px 0 0 40px;
+}
+
+header h6 {
+  font-size: 0.73em;
+  margin-left: 40px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 120px 160px 140px auto 160px;
+  background-color: #F2F2F2;
+  height: 45px;
+  font-weight: 700;
+  place-items: center;
+  margin: 0 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+nav div a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+#post {
+  color: antiquewhite;
+  display: grid;
+  place-items: center;
+  width: 120px;
+  height: 45px;
+  background-color: rgb(48, 48, 48);
+  border-top-left-radius: 8px;
+}
+
+#post a {
+  color: antiquewhite;
+}
+
+#comunidades {
+  display: grid;
+  place-items: center;
+  width: 160px;
+  height: 45px;
+  border-right: 1px solid black;
+}
+
+#registrate {
+  display: grid;
+  place-items: center;
+  width: 140px;
+  height: 45px;
+  border-right: 1px solid black;
+}
+
+#vacio {
+  grid-column: 4 / 5;
+}
+
+#identificarme {
+  display: grid;
+  place-items: center;
+  grid-column: 5 / 6;
+  height: 45px;
+  width: 160px;
+  background-color: #FFC847;
+  border-top-right-radius: 8px;
+}
