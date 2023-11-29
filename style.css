@@ -36,8 +36,9 @@ header h6 {
 nav {
   display: grid;
   grid-template-columns: 120px 160px 140px auto 160px;
+  background: linear-gradient(#ffffff, #d1d1d1);
   background-color: #F2F2F2;
-  height: 45px;
+  height: 35px;
   font-weight: 700;
   place-items: center;
   margin: 0 10px;
@@ -56,7 +57,7 @@ nav div a {
   display: grid;
   place-items: center;
   width: 120px;
-  height: 45px;
+  height: 35px;
   background-color: rgb(48, 48, 48);
   border-top-left-radius: 8px;
 }
@@ -69,7 +70,7 @@ nav div a {
   display: grid;
   place-items: center;
   width: 160px;
-  height: 45px;
+  height: 35px;
   border-right: 1px solid black;
 }
 
@@ -77,7 +78,7 @@ nav div a {
   display: grid;
   place-items: center;
   width: 140px;
-  height: 45px;
+  height: 35px;
   border-right: 1px solid black;
 }
 
@@ -89,8 +90,9 @@ nav div a {
   display: grid;
   place-items: center;
   grid-column: 5 / 6;
-  height: 45px;
+  height: 35px;
   width: 160px;
+  background: linear-gradient(#fdd472, #dda931);
   background-color: #FFC847;
   border-top-right-radius: 8px;
 }
@@ -154,4 +156,31 @@ nav div a {
   margin-top: 10px;
   text-align: center;
   background-color: #3B8BAC;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: 120px 160px 140px;
+    grid-template-rows: repeat(2, 35px);
+    width: 420px;
+    border-top-right-radius: 8px;
+  }
+
+  #identificarme {
+    display: none;
+  }
+
+  #vacio {
+    display: none;
+  }
+
+  #registrate {
+    border-top-right-radius: 8px;
+    border-right: none;
+  }
+
+  #nav-2 {
+    width: 420px;
+  }
 }
