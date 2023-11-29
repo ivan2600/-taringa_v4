@@ -15,6 +15,7 @@ main {
   margin: 0 8px;
   border-radius: 10px;
   height: 150vh;
+  min-width: 600px;
   align-content: start;
 }
 
@@ -92,4 +93,65 @@ nav div a {
   width: 160px;
   background-color: #FFC847;
   border-top-right-radius: 8px;
+}
+
+#nav-2 {
+  display: grid;
+  grid-template-columns: 105px 105px 105px 105px auto;
+  background-color: #007294;
+  height: 30px;
+  font-weight: 700;
+  place-items: center;
+  margin: 0 10px;
+}
+
+#nav-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+#inicio {
+  display: grid;
+  
+}
+
+#inicio a {
+  color: #333;
+  width: 95px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+#novatos {
+  display: grid;
+}
+
+#novatos a {
+  width: 95px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3B8BAC;
+}
+
+#buscador {
+  display: grid;
+}
+
+#buscador a {
+  width: 95px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3B8BAC;
+}
+
+#tops {
+  display: grid;
+}
+
+#tops a {
+  width: 95px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3B8BAC;
 }
