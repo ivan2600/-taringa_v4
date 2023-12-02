@@ -198,7 +198,7 @@ nav div a {
 
   #nav-2 {
     grid-template-columns: 90px 90px 90px 90px auto;
-    font-size: 0.8em;
+    font-size: 0.9em;
     gap: 15px;
     height: 32px;
     margin-top: 35px;
@@ -214,6 +214,5 @@ nav div a {
 
   #inicio {
     display: grid;
-    /* margin-left: 15px; */
   }
 }
