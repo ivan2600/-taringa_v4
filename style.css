@@ -12,8 +12,8 @@ main {
   color: aliceblue;
   display: grid;
   grid-template-rows: 120px, 45px;
-  margin: 0 8px;
-  border-radius: 10px;
+  /* margin: 0 8px; */
+  /* border-radius: 10px; */
   height: 150vh;
   min-width: 600px;
   align-content: start;
