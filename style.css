@@ -37,7 +37,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr auto 1.2fr;
   background-color: #F2F2F2;
-  height: 45px;
+  height: 35px;
   font-weight: 700;
   place-items: center;
   margin: 0 10px;
@@ -57,6 +57,8 @@ nav div a {
   place-items: center;
   width: 100%;
   height: 100%;
+
+7fefcd638e6f272694d23f085bd0d5
   background-color: rgb(48, 48, 48);
   border-top-left-radius: 8px;
 }
@@ -91,6 +93,7 @@ nav div a {
   grid-column: 5 / 6;
   width: 100%;
   height: 100%;
+  background: linear-gradient(#fdd472, #dda931);
   background-color: #FFC847;
   border-top-right-radius: 8px;
 }
@@ -154,4 +157,36 @@ nav div a {
   margin-top: 10px;
   text-align: center;
   background-color: #3B8BAC;
+}
+
+@media (max-width: 600px) {
+  main {
+    min-width: 440px;
+    max-width: 440px;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 120px 160px 140px;
+    grid-template-rows: repeat(2, 35px);
+    width: 420px;
+    border-top-right-radius: 8px;
+  }
+
+  #identificarme {
+    display: none;
+  }
+
+  #vacio {
+    display: none;
+  }
+
+  #registrate {
+    border-top-right-radius: 8px;
+    border-right: none;
+  }
+
+  #nav-2 {
+    width: 420px;
+  }
 }
