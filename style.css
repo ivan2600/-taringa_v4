@@ -14,7 +14,7 @@ main {
   grid-template-rows: 120px, 45px;
   /* margin: 0 8px; */
   /* border-radius: 10px; */
-  height: 150vh;
+  /* height: 200vh; */
   min-width: 600px;
   align-content: start;
 }
@@ -166,6 +166,9 @@ nav div a {
   background-color: #FFFFFF;
   margin: 0 10px ;
   padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .section {
