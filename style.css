@@ -194,6 +194,7 @@ nav div a {
   font-size: 0.8em;
   padding-top: 3px;
   padding-right: 10px;
+  font-weight: 500;
 }
 
 .section-body ul li {
@@ -241,7 +242,6 @@ nav div a {
   background-color: #FFFFFF;
   margin-left: 15px;
   margin-right: 5px;
-  padding-bottom: ;
 }
 .search input {
   width: 260px;
@@ -250,6 +250,35 @@ nav div a {
 .lupa {
   height: 30px;
   margin: 5px 8px;
+}
+
+#estadisticas-section-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #333;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#usuarios-online { 
+  color: #007294;
+  font-weight: 700;
+}
+
+#juegos-section-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #333;
+  padding: 15px;
+  padding-top: 10px;
+}
+
+#juegos-section-body p {
+  margin: 5px 0;
+}
+
+#publicidad-section {
+  margin-right: 10px;
 }
 
 @media (max-width: 600px) {
