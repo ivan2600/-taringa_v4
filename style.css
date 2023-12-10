@@ -264,6 +264,18 @@ nav div a {
   margin: 5px 8px;
 }
 
+#buscar-con {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+#buscar-con p {
+  color: black;
+}
+
 #estadisticas-section-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
