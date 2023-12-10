@@ -319,6 +319,11 @@ nav div a {
   #buscador-section {
     margin-right: 10px;
   }
+
+  #publicidad-section {
+    margin-right: 0;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 710px) {
@@ -328,6 +333,11 @@ nav div a {
 
   #post-section {
     margin-right: 10px;
+  }
+
+  #publicidad-section {
+    margin-right: 0;
+    margin-top: 0;
   }
 }
 
